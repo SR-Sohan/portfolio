@@ -3354,3 +3354,18 @@ h6 {
 .single_project:hover .project_img img{
   transform: translateY(-350px); 
 }
+/* projects details css  */
+.project_technology_wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project_technology_wrap div{
+  width: 90px;
+  height: 40px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  color: #007bff;
+}

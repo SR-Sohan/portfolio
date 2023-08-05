@@ -10,4 +10,7 @@ class ProjectController extends Controller
     public function page(){
         return view("client.pages.project");
     }
+    public function page2(){
+        return view("client.pages.projectDetails");
+    }
 }

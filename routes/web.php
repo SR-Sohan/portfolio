@@ -14,4 +14,5 @@ Route::get("/about",[AboutController::class,"page"]);
 Route::get("/contact",[ContactController::class,"page"]);
 Route::get("/resume",[ResumeController::class,"page"]);
 Route::get("/project",[ProjectController::class,"page"]);
+Route::get("/project/{id}",[ProjectController::class,"page2"]);
 
