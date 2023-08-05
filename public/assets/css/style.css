@@ -3311,3 +3311,46 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+/* resume css  */
+.single_experience h5,h2,h3{
+  color: #4458dc;
+}
+.language-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.language-content div{
+  background-color: #fff;
+  box-shadow: 5px 10px 5px #ddd;
+  padding: 10px;
+  width: 150px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #4458dc;
+}
+
+/* projects css  */
+.single_project{
+  margin-bottom: 25px;
+}
+.project_img{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.project_img img{
+  width: 100%;
+  height: auto;
+  transition: transform 1s ease; 
+}
+.single_project:hover .project_img img{
+  transform: translateY(-350px); 
+}
