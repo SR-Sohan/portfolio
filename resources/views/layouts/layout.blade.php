@@ -26,7 +26,7 @@
 
     {{-- loading area  --}}
     <div class="d-none"  id="loading">
-        <h2 class="">Loading</h2>
+		<div class="spin"></div>
     </div>
     {{-- loading area end --}}
 
